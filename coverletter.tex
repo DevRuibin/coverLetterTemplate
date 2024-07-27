@@ -1,0 +1,150 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-darknight}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[circle,noedge,left]{profile}
+\name{Ruibin}{Zhang}
+\position{Backend Developer{\enskip\cdotp\enskip}Cloud Computing Engineer}
+\address{Rue de la Neuville 14, 1348 Ottignies-Louvain-la-Neuve, Belgium}
+
+\mobile{(+32) 493705912}
+\email{ruibin.zhang@student.uclouvain.be}
+% \homepage{www.posquit0.com}
+\github{devruibin}
+\linkedin{ruibin-zhang-0b4395250}
+\home{Hebei, China}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+\quote{"Driven by Passion, Committed to Growth: Ready to Innovate and Excel in IT!"}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {}
+  % {Google Inc.\\1600 Amphitheatre Parkway\\Mountain View, CA 94043}
+  % {Brussels IT Tower,\\ Avenue Louise 480, \\1050, Brussels}
+  % {5 Straits View \#01-18\/19,\\ Marina One The Heart,\\ East Tower, Singapore 018935}
+  { \\
+\\
+}
+  % {Flight Forum 3360, \\ 5657 EW, Eindhoven, \\ The Netherlands}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for }
+% How the letter is opened
+\letteropening{Dear ,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Ruibin Zhang~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{About Me}
+As a young graduate student, holding a Master's degree in Computer Science and Engineering, I am so eager to go to my next life phase as soon as possible. Ever since I was introduced to C language, I knew I had found my passion. Because IT allows me to create a ordering, stable, and efficient realm which was lack in my childhood. Throughout my Master's program, I have refined my focus on backend development using cloud computing technologies. I am preparing myself for a career in this field now by extending my knowledge about Azure. Additionally,  I will be granted one year job visa in Belgium as well.
+
+\lettersection{Why {companyName}?}
+
+
+
+I am particularly drawn to {companyName} because of your commitment to delivering high-quality software solutions and your focus on client satisfaction. Your emphasis on using a variety of technologies, including Java, Python, and JavaScript, aligns perfectly with my skill set. Additionally, I believe that joining a small company like {companyName} will provide me with a unique opportunity to demonstrate my value and contribute significantly to the team’s success. This environment will also foster my growth and development at a much faster pace, which is crucial for me as a junior software engineer.
+
+\lettersection{Why Me?}
+I believe that my educational background and hands-on experience have equipped me well to be a software engineer. My Master's thesis on IoT and Smart City solutions, which is using microservices architecture in the backend,  and my experience in developing scalable e-commerce website using microservices architecture demonstrate my ability to handle a complex, data-driven backend projects. Additionally, my role as a team leader in the National Software Survey Software Development Competition, where I developed a prize-winning mobile application to detect porcelain's age by using Deep Learning, showcases my leadership and collaborative skills.
+
+I am eager to  transfer to be a professional software engineer. I am confident my skills and passion align with your company's mission and values. I really hope you can provide me a chance to become a software engineer, and I look forward from you to discussing how my personality and background fit the role as a software engineer.
+
+Thank you for your time and consideration of my candidacy.
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+\end{document}

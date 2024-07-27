@@ -1,0 +1,7 @@
+recipient
+address1
+address2
+address3
+jobTitle
+HR
+companyName
